@@ -1,0 +1,631 @@
+﻿[2016.01.07-15.23.12:511][  0]Log file open, 01/07/16 12:23:12
+[2016.01.07-15.23.12:511][  0]LogInit:Display: Running engine for game: BotonLuz
+[2016.01.07-15.23.12:511][  0]LogInit:Display: RandInit(-982090446) SRandInit(-982090446).
+[2016.01.07-15.23.12:511][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.07-15.23.12:512][  0]LogStats: Stats thread started at 0.087703
+[2016.01.07-15.23.12:512][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.07-15.23.12:512][  0]LogInit: API Version: 2672455
+[2016.01.07-15.23.12:512][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.07-15.23.12:512][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.07-15.23.12:512][  0]LogInit: Build Configuration: Development
+[2016.01.07-15.23.12:512][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.07-15.23.12:512][  0]LogInit: Command line: 
+[2016.01.07-15.23.12:512][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.07-15.23.12:512][  0]LogInit: Rocket: 1
+[2016.01.07-15.23.12:590][  0]LogInit: Using libcurl 7.41.0
+[2016.01.07-15.23.12:590][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.07-15.23.12:590][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.07-15.23.12:590][  0]LogInit:  - other features:
+[2016.01.07-15.23.12:590][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.07-15.23.12:590][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.07-15.23.12:590][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.07-15.23.12:590][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.07-15.23.12:590][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.07-15.23.12:590][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.07-15.23.12:590][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.07-15.23.12:590][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.07-15.23.12:590][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.07-15.23.12:590][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.07-15.23.12:683][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.07-15.23.12:739][  0]LogInit: Object subsystem initialized
+[2016.01.07-15.23.12:744][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.07-15.23.12:744][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.07-15.23.12:765][  0]LogInit: Computer: TONGA-PC
+[2016.01.07-15.23.12:765][  0]LogInit: User: Tonga
+[2016.01.07-15.23.12:765][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.07-15.23.12:765][  0]LogInit: High frequency timer resolution =3.021875 MHz
+[2016.01.07-15.23.12:765][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.07-15.23.12:765][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.07-15.23.12:765][  0]LogMemory: Process Physical Memory: 54.35 MB used, 54.35 MB peak
+[2016.01.07-15.23.12:765][  0]LogMemory: Process Virtual Memory: 58.56 MB used, 58.56 MB peak
+[2016.01.07-15.23.12:765][  0]LogMemory: Physical Memory: 5248.08 MB used, 8132.66 MB total
+[2016.01.07-15.23.12:765][  0]LogMemory: Virtual Memory: 341.80 MB used, 8388608.00 MB total
+[2016.01.07-15.23.14:057][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2016.01.07-15.23.14:057][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.07-15.23.14:057][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.07-15.23.14:067][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.07-15.23.14:067][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.07-15.23.14:088][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.07-15.23.14:104][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Intermediate/Shaders/WorkingDirectory/8132/).
+[2016.01.07-15.23.14:105][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Intermediate/Shaders/tmp/3DE9F630435DCB90A1ADF5B50B7EB82F/'.
+[2016.01.07-15.23.14:105][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.07-15.23.15:776][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.07-15.23.15:787][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.07-15.23.15:799][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.07-15.23.15:808][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.07-15.23.15:819][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.07-15.23.15:827][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.07-15.23.15:834][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.07-15.23.15:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.07-15.23.15:850][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.07-15.23.15:857][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.07-15.23.15:865][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.07-15.23.15:872][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.07-15.23.15:875][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.07-15.23.15:903][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.07-15.23.15:909][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.07-15.23.15:917][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.07-15.23.15:925][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.07-15.23.15:925][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.07-15.23.16:148][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Tonga/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tonga/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.07-15.23.16:268][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.07-15.23.16:451][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.07-15.23.16:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tonga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.07-15.23.16:740][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.07-15.23.16:741][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.07-15.23.16:785][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.07-15.23.16:785][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.07-15.23.17:365][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.07-15.23.18:513][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.07-15.23.18:636][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2016.01.07-15.23.18:957][  0]SourceControl: Info Source control is disabled
+[2016.01.07-15.23.18:958][  0]SourceControl: Info Source control is disabled
+[2016.01.07-15.23.18:981][  0]SourceControl: Info Source control is disabled
+[2016.01.07-15.23.19:004][  0]SourceControl: Info Source control is disabled
+[2016.01.07-15.23.19:304][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.07-15.23.19:484][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.07-15.23.19:484][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.07-15.23.19:564][  0]LogEngine: Initializing Engine...
+[2016.01.07-15.23.19:568][  0]OCULUS: Info: 01/07/16 15:23:19: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_7.dll
+
+[2016.01.07-15.23.20:069][  0]OCULUS: Error: 01/07/16 15:23:20: [CAPI] ovr_Create failed to complete within the timeout period.
+[2016.01.07-15.23.20:072][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.07-15.23.20:274][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.07-15.23.20:286][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.07-15.23.20:315][  0]LogInit: FAudioDevice initialized.
+[2016.01.07-15.23.20:361][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Tonga/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.07-15.23.20:374][  0]LogInit: Texture streaming: Enabled
+[2016.01.07-15.23.20:388][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.07-15.23.20:388][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.07-15.23.20:388][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d2bef611456171cb171d15a4a42cb182|6ac59fa8cbb647a4b14c5a548cbd3b91|31fc86a8-acb9-451a-b082-adf3974f05a6
+[2016.01.07-15.23.20:388][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.07-15.23.20:499][  0]LogInit: Transaction tracking system initialized
+[2016.01.07-15.23.20:573][  0]BlueprintLog: New page: Editor Load
+[2016.01.07-15.23.20:786][  0]LocalizationService: Info Localization service is disabled
+[2016.01.07-15.23.20:974][  0]LogConsoleResponse:Display: 
+[2016.01.07-15.23.21:166][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.07-15.23.21:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/' took 0.01s
+[2016.01.07-15.23.21:374][  0]SourceControl: Info Source control is disabled
+[2016.01.07-15.23.21:374][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.07-15.23.21:375][  0]LightingResults: New page: Lighting Build
+[2016.01.07-15.23.21:383][  0]MapCheck: New page: Map Check
+[2016.01.07-15.23.21:383][  0]LightingResults: New page: Lighting Build
+[2016.01.07-15.23.21:414][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002533C400
+[2016.01.07-15.23.22:047][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.01.07-15.23.22:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.07-15.23.22:065][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.07-15.23.22:332][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 266.609ms to complete.
+[2016.01.07-15.23.22:332][  0]LogFileHelpers: Loading map 'Template_Default' took 0.958
+[2016.01.07-15.23.22:596][  0]LogCollectionManager: Loaded 0 collections in 0.005264 seconds
+[2016.01.07-15.23.22:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Collections/' took 0.01s
+[2016.01.07-15.23.22:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1867 classes and 333 folders.
+[2016.01.07-15.23.22:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Developers/Tonga/Collections/' took 0.03s
+[2016.01.07-15.23.22:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Collections/' took 0.01s
+[2016.01.07-15.23.22:664][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.07-15.23.22:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.07-15.23.23:017][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.07-15.23.23:049][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.01.07-15.23.23:143][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.07-15.23.23:149][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.07-15.23.23:266][  0]LogLoad: Full Startup: 11.49 seconds (BP compile: 0.08 seconds)
+[2016.01.07-15.23.23:698][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.07-15.23.23:889][  0]LogRenderer: Reallocating scene render targets to support 1144x576 (Frame:2).
+[2016.01.07-15.23.25:075][  4]LogAssetRegistry: Asset discovery search completed in 6.4497 seconds
+[2016.01.07-15.23.25:075][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.07-15.23.25:075][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.01.07-15.23.55:311][530]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.07-15.23.56:033][530]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.01.07-15.25.06:847][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.25.06:993][725]LogSavePackage: Save=127.194206ms
+[2016.01.07-15.25.06:993][725]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces6E30EA1141EBE8059AD171ADCC9534E7.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.25.06:997][725]LogSavePackage: Total save time: 148.227174ms
+[2016.01.07-15.25.06:997][725]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.25.07:996][770]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-15.25.08:169][770]BlueprintEditorCompileResults: Info [0116.39] Compile of PanelLuces successful! [in 172 ms]
+[2016.01.07-15.25.43:146][197]LogEditorTransaction: Undo Move Widget
+[2016.01.07-15.26.35:470][386]LogEditorTransaction: Undo Edit X
+[2016.01.07-15.26.36:005][401]LogEditorTransaction: Undo Edit X
+[2016.01.07-15.26.36:549][418]LogEditorTransaction: Undo Edit Y
+[2016.01.07-15.26.37:013][432]LogEditorTransaction: Undo Edit X
+[2016.01.07-15.26.37:472][446]LogEditorTransaction: Undo Changed Anchors
+[2016.01.07-15.26.38:957][497]LogEditorTransaction: Undo Move Widget
+[2016.01.07-15.27.27:683][498]Cmd: TRANSACTION UNDO
+[2016.01.07-15.27.27:683][498]LogEditorTransaction: Undo Changed Anchors
+[2016.01.07-15.27.28:393][523]Cmd: TRANSACTION UNDO
+[2016.01.07-15.27.28:393][523]LogEditorTransaction: Undo Edit Size To Content
+[2016.01.07-15.27.28:876][540]Cmd: TRANSACTION UNDO
+[2016.01.07-15.27.28:876][540]LogEditorTransaction: Undo Move Widget
+[2016.01.07-15.28.08:674][956]LogEditorTransaction: Undo Move Widget
+[2016.01.07-15.29.33:407][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.29.33:590][901]LogSavePackage: Save=169.015259ms
+[2016.01.07-15.29.33:590][901]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces5C9803504EF36D0C02B35F825662AEFA.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.29.33:595][901]LogSavePackage: Total save time: 185.906101ms
+[2016.01.07-15.29.33:595][901]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.30.48:267][  1]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-15.30.48:479][  1]BlueprintEditorCompileResults: Info [0456.70] Compile of PanelLuces successful! [in 211 ms]
+[2016.01.07-15.30.48:877][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.30.48:981][ 15]LogSavePackage: Save=93.866890ms
+[2016.01.07-15.30.48:981][ 15]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces7C6115644F54166B257E4B8ADF6732DD.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.30.48:983][ 15]LogSavePackage: Total save time: 104.349121ms
+[2016.01.07-15.30.48:983][ 15]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.31.53:877][704]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.31.54:663][760]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.31.57:377][964]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.31.57:397][965]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.33.23:869][867]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.055
+[2016.01.07-15.33.23:877][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PanelLuces] ([1] browsable assets)...
+[2016.01.07-15.33.23:877][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/PanelLuces]
+[2016.01.07-15.33.23:877][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.07-15.33.23:979][867]LogSavePackage: Save=92.008110ms
+[2016.01.07-15.33.23:979][867]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces_Auto18B4EC20C4A19EA80A1215E95120CDB89.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto1.uasset'
+[2016.01.07-15.33.23:981][867]LogSavePackage: Total save time: 102.960248ms
+[2016.01.07-15.33.23:981][867]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto1.uasset
+[2016.01.07-15.33.23:981][867]LogFileHelpers: Auto-saving content packages took 0.112
+[2016.01.07-15.38.34:970][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.38.35:080][450]LogSavePackage: Save=92.588539ms
+[2016.01.07-15.38.35:080][450]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces404E2E6D420F2B4B46CE91B5E34F9BB6.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.38.35:084][450]LogSavePackage: Total save time: 112.251166ms
+[2016.01.07-15.38.35:084][450]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.38.35:698][494]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.38.36:257][533]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.14:720][ 90]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.30:150][ 87]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.30:855][136]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.31:706][195]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.32:612][259]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.33:443][318]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.33:462][319]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.34:377][382]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.35:310][446]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.36:431][525]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.36:451][526]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.37:481][597]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.38:038][636]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.39:180][718]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.39:199][719]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.40:437][804]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.41:730][892]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.42:773][966]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.48.44:712][104]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.49.47:528][759]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.50.46:108][ 92]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-15.50.57:311][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.50.57:427][896]LogSavePackage: Save=99.150032ms
+[2016.01.07-15.50.57:427][896]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces69F93A094F53BF084ED369A8623F2E55.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.50.57:431][896]LogSavePackage: Total save time: 118.887115ms
+[2016.01.07-15.50.57:431][896]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.50.58:313][960]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-15.50.58:452][960]BlueprintEditorCompileResults: Info [1666.66] Compile of PanelLuces successful! [in 139 ms]
+[2016.01.07-15.51.00:973][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.07-15.51.00:973][190]PIE: New page: PIE session: Untitled_1 (Jan 7, 2016, 9:51:00 AM)
+[2016.01.07-15.51.00:973][190]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.01.07-15.51.00:977][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
+[2016.01.07-15.51.00:978][190]LogAIModule: Creating AISystem for world Untitled_1
+[2016.01.07-15.51.00:978][190]LogPlayLevel: PIE: World Init took: (0.001481s)
+[2016.01.07-15.51.00:979][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005429s)
+[2016.01.07-15.51.01:022][190]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048398AE0
+[2016.01.07-15.51.01:031][190]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.07-15.51.01:052][190]LogInit: FAudioDevice initialized.
+[2016.01.07-15.51.01:108][190]LogWorld: Game class is 'GameMode'
+[2016.01.07-15.51.01:111][190]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.01.07-12.51.01
+[2016.01.07-15.51.01:111][190]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.51.01:111][190]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.51.01:111][190]LogWorld: Bringing up level for play took: 0.002565
+[2016.01.07-15.51.01:115][190]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.689
+[2016.01.07-15.51.08:234][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004851A160
+[2016.01.07-15.51.23:577][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-15.51.23:679][ 22]LogSavePackage: Save=94.058487ms
+[2016.01.07-15.51.23:679][ 22]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces0EBD95E8445893583D473BA17531C0F9.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-15.51.23:681][ 22]LogSavePackage: Total save time: 102.713712ms
+[2016.01.07-15.51.23:681][ 22]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-15.51.24:451][ 73]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-15.51.24:596][ 73]BlueprintEditorCompileResults: Info [1692.80] Compile of PanelLuces successful! [in 144 ms]
+[2016.01.07-15.51.30:398][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.07-15.51.37:298][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.07-15.51.37:299][269]PIE: New page: PIE session: Untitled_1 (Jan 7, 2016, 9:51:37 AM)
+[2016.01.07-15.51.37:299][269]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.01.07-15.51.37:303][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004055s)
+[2016.01.07-15.51.37:304][269]LogAIModule: Creating AISystem for world Untitled_1
+[2016.01.07-15.51.37:305][269]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2016.01.07-15.51.37:305][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006090s)
+[2016.01.07-15.51.37:353][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052B3F7E0
+[2016.01.07-15.51.37:361][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052B3D800
+[2016.01.07-15.51.37:362][269]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.07-15.51.37:382][269]LogInit: FAudioDevice initialized.
+[2016.01.07-15.51.37:418][269]LogWorld: Game class is 'GameMode'
+[2016.01.07-15.51.37:421][269]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.01.07-12.51.37
+[2016.01.07-15.51.37:421][269]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.51.37:421][269]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.51.37:421][269]LogWorld: Bringing up level for play took: 0.002982
+[2016.01.07-15.51.37:424][269]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.38
+[2016.01.07-15.51.38:212][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048399D00
+[2016.01.07-15.52.59:528][ 19]LogSavePackage: Save=106.020271ms
+[2016.01.07-15.52.59:528][ 19]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Untitled_1_Auto273C6477647EBCD76F653D59AD3F27724.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2016.01.07-15.52.59:529][ 19]LogSavePackage: Total save time: 127.887487ms
+[2016.01.07-15.52.59:529][ 19]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2016.01.07-15.52.59:531][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.190
+[2016.01.07-15.52.59:531][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2016.01.07-15.58.44:251][558]LogAIModule: Creating AISystem for world Inicio
+[2016.01.07-15.58.44:310][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005142F9C0
+[2016.01.07-15.58.48:601][558]Cmd: MAP LOAD FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Inicio.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.07-15.58.48:602][558]LightingResults: New page: Lighting Build
+[2016.01.07-15.58.48:635][558]LoadErrors: New page: Loading map: Inicio.umap
+[2016.01.07-15.58.48:636][558]MapCheck: New page: Map Check
+[2016.01.07-15.58.48:636][558]LightingResults: New page: Lighting Build
+[2016.01.07-15.58.48:679][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001038D260
+[2016.01.07-15.58.48:681][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000483993A0
+[2016.01.07-15.58.48:769][558]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.07-15.58.48:807][558]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.07-15.58.48:966][558]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.469ms to complete.
+[2016.01.07-15.58.48:966][558]LogFileHelpers: Loading map 'Inicio' took 0.366
+[2016.01.07-15.58.52:484][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-15.58.52:485][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.07-15.58.52:485][969]PIE: New page: PIE session: Inicio (Jan 7, 2016, 9:58:52 AM)
+[2016.01.07-15.58.52:485][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Inicio
+[2016.01.07-15.58.52:490][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004765s)
+[2016.01.07-15.58.52:491][969]LogAIModule: Creating AISystem for world Inicio
+[2016.01.07-15.58.52:491][969]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2016.01.07-15.58.52:491][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Inicio.Inicio to /Game/UEDPIE_0_Inicio.Inicio (0.006168s)
+[2016.01.07-15.58.52:540][969]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.07-15.58.52:561][969]LogInit: FAudioDevice initialized.
+[2016.01.07-15.58.52:599][969]LogWorld: Game class is 'GameMode'
+[2016.01.07-15.58.52:601][969]LogWorld: Bringing World /Game/UEDPIE_0_Inicio.Inicio up for play (max tick rate 0) at 2016.01.07-12.58.52
+[2016.01.07-15.58.52:601][969]LogActor:Warning: GameSession /Game/UEDPIE_0_Inicio.Inicio:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.58.52:601][969]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Inicio.Inicio:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-15.58.52:602][969]LogWorld: Bringing up level for play took: 0.002064
+[2016.01.07-15.58.52:606][969]PIE: Info Play in editor start time for /Game/UEDPIE_0_Inicio 0.798
+[2016.01.07-15.58.52:606][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-15.59.48:441][307]PIE:Warning: Warning Mobility of PointLight_0 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-15.59.57:233][337]PIE:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.08.45:303][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.08.45:338][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.08.45:399][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002386EDE0
+[2016.01.07-16.09.06:338][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-16.09.06:467][367]LogSavePackage: Save=111.741554ms
+[2016.01.07-16.09.06:467][367]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces717A05774BBA6F752D3B27A3AF78B975.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-16.09.06:470][367]LogSavePackage: Total save time: 130.889267ms
+[2016.01.07-16.09.06:470][367]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-16.09.06:829][391]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-16.09.06:972][391]BlueprintEditorCompileResults: Info [2755.17] Compile of PanelLuces successful! [in 142 ms]
+[2016.01.07-16.09.10:874][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.09.10:874][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.07-16.09.10:874][731]PIE: New page: PIE session: Inicio (Jan 7, 2016, 10:09:10 AM)
+[2016.01.07-16.09.10:874][731]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Inicio
+[2016.01.07-16.09.10:879][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004529s)
+[2016.01.07-16.09.10:880][731]LogAIModule: Creating AISystem for world Inicio
+[2016.01.07-16.09.10:880][731]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2016.01.07-16.09.10:880][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Inicio.Inicio to /Game/UEDPIE_0_Inicio.Inicio (0.006154s)
+[2016.01.07-16.09.10:925][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052203D80
+[2016.01.07-16.09.10:934][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052201DA0
+[2016.01.07-16.09.10:934][731]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.07-16.09.10:955][731]LogInit: FAudioDevice initialized.
+[2016.01.07-16.09.10:991][731]LogWorld: Game class is 'GameMode'
+[2016.01.07-16.09.10:993][731]LogWorld: Bringing World /Game/UEDPIE_0_Inicio.Inicio up for play (max tick rate 0) at 2016.01.07-13.09.10
+[2016.01.07-16.09.10:993][731]LogActor:Warning: GameSession /Game/UEDPIE_0_Inicio.Inicio:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-16.09.10:993][731]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Inicio.Inicio:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.07-16.09.10:994][731]LogWorld: Bringing up level for play took: 0.002089
+[2016.01.07-16.09.10:999][731]PIE: Info Play in editor start time for /Game/UEDPIE_0_Inicio -0.815
+[2016.01.07-16.09.10:999][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.09.52:425][268]PIE:Warning: Warning Mobility of PointLight_2 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.10.03:778][614]PIE:Warning: Warning Mobility of PointLight_3 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.10.05:411][807]PIE:Warning: Warning Mobility of PointLight_4 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.10.09:443][281]PIE:Warning: Warning Mobility of PointLight_5 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.10.26:521][292]PIE:Warning: Warning Mobility of PointLight_6 : LightComponent0 has to be 'Movable' if you'd like to Mobility of {0} : {1} has to be 'Movable' if you'd like to {2}. . 
+[2016.01.07-16.15.34:972][622]Cmd: TRANSACTION UNDO
+[2016.01.07-16.15.34:972][622]LogEditorTransaction: Undo Move Widget
+[2016.01.07-16.15.36:448][672]Cmd: TRANSACTION UNDO
+[2016.01.07-16.15.36:448][672]LogEditorTransaction: Undo Resize Widget
+[2016.01.07-16.15.36:725][680]Cmd: TRANSACTION UNDO
+[2016.01.07-16.15.36:725][680]LogEditorTransaction: Undo Resize Widget
+[2016.01.07-16.15.36:908][685]Cmd: TRANSACTION UNDO
+[2016.01.07-16.15.36:908][685]LogEditorTransaction: Undo Move Widget
+[2016.01.07-16.17.41:005][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.17.41:040][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Inicio.Inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Inicio.Inicio:PersistentLevel.Inicio' with GeneratedClass '/Game/Inicio.Inicio_C' with ClassGeneratedBy '/Game/Inicio.Inicio:PersistentLevel.Inicio'
+[2016.01.07-16.17.41:089][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055CE1940
+[2016.01.07-16.17.55:118][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-16.17.55:241][826]LogSavePackage: Save=111.769348ms
+[2016.01.07-16.17.55:241][826]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces3F4FD4AC401EC4623A9EC0AA189C549A.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-16.17.55:246][826]LogSavePackage: Total save time: 126.122687ms
+[2016.01.07-16.17.55:246][826]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-16.18.42:766][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.07-16.18.45:163][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.07-16.18.45:656][842]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.01.07-16.19.02:344][175]Cmd: DELETE
+[2016.01.07-16.19.02:344][175]Cmd: ACTOR DELETE
+[2016.01.07-16.19.02:345][175]LogEditorActor: Deleted Actor: PointLight
+[2016.01.07-16.19.02:398][175]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2016.01.07-16.19.03:889][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.07-16.19.06:494][525]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.01.07-16.21.09:927][348]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.07-16.27.07:586][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inicio" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.07-16.27.07:699][942]LogSavePackage: Save=96.185646ms
+[2016.01.07-16.27.07:699][942]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Inicio_Auto3FD28433E443D6D7CEC679C8DAD465FD6.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto3.umap'
+[2016.01.07-16.27.07:701][942]LogSavePackage: Total save time: 113.512639ms
+[2016.01.07-16.27.07:701][942]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto3.umap
+[2016.01.07-16.27.07:703][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Inicio' took 0.178
+[2016.01.07-16.27.07:703][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2016.01.07-16.27.07:712][942]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PanelLuces] ([1] browsable assets)...
+[2016.01.07-16.27.07:712][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/PanelLuces]
+[2016.01.07-16.27.07:712][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.01.07-16.27.07:821][942]LogSavePackage: Save=99.237724ms
+[2016.01.07-16.27.07:822][942]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces_Auto3876873CC4B95EF0DB6FAEB9EE90C96B9.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto3.uasset'
+[2016.01.07-16.27.07:824][942]LogSavePackage: Total save time: 110.355657ms
+[2016.01.07-16.27.07:824][942]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto3.uasset
+[2016.01.07-16.27.07:824][942]LogFileHelpers: Auto-saving content packages took 0.118
+[2016.01.07-16.30.43:130][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-16.30.43:246][413]LogSavePackage: Save=104.929222ms
+[2016.01.07-16.30.43:246][413]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces6024A803480979B83B8426858683AF61.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-16.30.43:250][413]LogSavePackage: Total save time: 118.454602ms
+[2016.01.07-16.30.43:250][413]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-16.31.10:394][947]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-16.37.08:669][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Inicio' took 0.052
+[2016.01.07-16.37.08:677][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PanelLuces] ([1] browsable assets)...
+[2016.01.07-16.37.08:677][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/PanelLuces]
+[2016.01.07-16.37.08:677][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.01.07-16.37.08:797][978]LogSavePackage: Save=100.990608ms
+[2016.01.07-16.37.08:797][978]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces_Auto4A9E29D7A467FD17C5DEE37BEF9881753.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto4.uasset'
+[2016.01.07-16.37.08:800][978]LogSavePackage: Total save time: 121.399131ms
+[2016.01.07-16.37.08:800][978]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/PanelLuces_Auto4.uasset
+[2016.01.07-16.37.08:800][978]LogFileHelpers: Auto-saving content packages took 0.130
+[2016.01.07-19.43.21:869][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PanelLuces" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset" SILENT=true
+[2016.01.07-19.43.21:987][217]LogSavePackage: Save=100.806946ms
+[2016.01.07-19.43.21:987][217]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/PanelLuces5D0D53504465E2489FEE45A83E30CE2F.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset'
+[2016.01.07-19.43.21:991][217]LogSavePackage: Total save time: 120.111521ms
+[2016.01.07-19.43.21:991][217]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/PanelLuces.uasset
+[2016.01.07-19.43.23:388][286]BlueprintLog: New page: Compile PanelLuces
+[2016.01.07-19.43.23:528][286]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-19.43.23:532][286]BlueprintEditorCompileResults: Info [5611.62] Compile of PanelLuces successful! [in 143 ms]
+[2016.01.07-19.43.23:558][286]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PanelLuces', cached variable property's owner is '/Game/PanelLuces.SKEL_PanelLuces_C'
+[2016.01.07-19.43.57:455][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inicio" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.07-19.43.57:560][593]LogSavePackage: Save=94.461548ms
+[2016.01.07-19.43.57:560][593]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Inicio_Auto53FF958234E370064B666D3B7FF9642CE.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto5.umap'
+[2016.01.07-19.43.57:562][593]LogSavePackage: Total save time: 104.949411ms
+[2016.01.07-19.43.57:562][593]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Autosaves/Game/Inicio_Auto5.umap
+[2016.01.07-19.43.57:564][593]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Inicio' took 0.166
+[2016.01.07-19.43.57:564][593]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.166
+[2016.01.07-20.11.05:971][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inicio" FILE="../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Inicio.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.07-20.11.06:147][341]LogSavePackage: Save=100.568359ms
+[2016.01.07-20.11.06:147][341]LogSavePackage: Moving '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Saved/Inicio4987F2B74A46599829A3F19D63ACBBEC.tmp' to '../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Inicio.umap'
+[2016.01.07-20.11.06:151][341]LogSavePackage: Total save time: 121.521574ms
+[2016.01.07-20.11.06:151][341]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tonga/Documents/Unreal Projects/BotonLuz/Content/Inicio.umap
+[2016.01.07-20.11.06:190][341]LogFileHelpers: Saving map 'Inicio' took 0.352
+[2016.01.07-20.11.06:696][342]Cmd: QUIT_EDITOR
+[2016.01.07-20.11.07:025][342]LogExit: Preparing to exit.
+[2016.01.07-20.11.08:052][342]LogExit: Editor shut down
+[2016.01.07-20.11.08:053][342]LogExit: Transaction tracking system shut down
+[2016.01.07-20.11.08:057][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED0AAC0
+[2016.01.07-20.11.08:057][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031EF7100
+[2016.01.07-20.11.08:064][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000522016C0
+[2016.01.07-20.11.08:065][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000519FA840
+[2016.01.07-20.11.08:065][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000519FAAC0
+[2016.01.07-20.11.08:066][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052202660
+[2016.01.07-20.11.08:067][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023ED4A40
+[2016.01.07-20.11.08:323][342]LogExit: Object subsystem successfully closed.
+[2016.01.07-20.11.08:342][342]LogD3D11RHI: Shutdown
+[2016.01.07-20.11.08:342][342]LogD3D11RHI: CleanupD3DDevice
+[2016.01.07-20.11.08:444][342]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.07-20.11.08:505][342]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.07-20.11.08:507][342]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.07-20.11.08:507][342]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.07-20.11.08:508][342]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.07-20.11.08:509][342]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.07-20.11.08:509][342]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.07-20.11.09:112][342]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.07-20.11.09:113][342]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.07-20.11.09:115][342]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.07-20.11.09:278][342]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.07-20.11.09:294][342]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.07-20.11.09:295][342]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.07-20.11.09:297][342]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.07-20.11.09:392][342]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.07-20.11.09:393][342]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.07-20.11.09:393][342]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.07-20.11.09:493][342]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.07-20.11.09:493][342]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.07-20.11.09:493][342]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.07-20.11.09:497][342]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.07-20.11.09:497][342]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.07-20.11.09:498][342]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.07-20.11.09:503][342]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.07-20.11.09:510][342]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.07-20.11.09:560][342]LogDerivedDataCache: Shutdown
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.07-20.11.09:560][342]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.07-20.11.11:561][342]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.07-20.11.11:569][342]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.07-20.11.11:569][342]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.07-20.11.11:569][342]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.07-20.11.11:570][342]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.07-20.11.11:570][342]LogExit: Exiting.
+[2016.01.07-20.11.11:572][342]Log file closed, 01/07/16 17:11:11
