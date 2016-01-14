@@ -1,0 +1,49 @@
+﻿[2016.01.14-05.42.19:419][  0]Log file open, 01/14/16 02:42:19
+[2016.01.14-05.42.19:419][  0]LogInit:Display: Running engine for game: BotonLuz
+[2016.01.14-05.42.19:419][  0]LogInit:Display: RandInit(-273182363) SRandInit(-273182362).
+[2016.01.14-05.42.19:419][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.14-05.42.19:419][  0]LogStats: Stats thread started at 0.220135
+[2016.01.14-05.42.19:419][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.14-05.42.19:419][  0]LogInit: API Version: 2672455
+[2016.01.14-05.42.19:419][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.14-05.42.19:419][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.14-05.42.19:419][  0]LogInit: Build Configuration: Development
+[2016.01.14-05.42.19:419][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.14-05.42.19:419][  0]LogInit: Command line:  /Temp/Autosaves/Game/UEDPCInicio -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.01.14-05.42.19:419][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.14-05.42.19:419][  0]LogInit: Rocket: 1
+[2016.01.14-05.42.19:457][  0]LogInit: Using libcurl 7.41.0
+[2016.01.14-05.42.19:457][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.14-05.42.19:457][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.14-05.42.19:457][  0]LogInit:  - other features:
+[2016.01.14-05.42.19:457][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.14-05.42.19:457][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.14-05.42.19:457][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.14-05.42.19:457][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.14-05.42.19:457][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.14-05.42.19:457][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.14-05.42.19:457][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.14-05.42.19:458][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.14-05.42.19:458][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.14-05.42.19:458][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.14-05.42.19:481][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.14-05.42.19:500][  0]LogInit: Object subsystem initialized
+[2016.01.14-05.42.19:503][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-05.42.19:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.14-05.42.19:514][  0]LogInit: Computer: TONGA-PC
+[2016.01.14-05.42.19:514][  0]LogInit: User: Tonga
+[2016.01.14-05.42.19:514][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.14-05.42.19:514][  0]LogInit: High frequency timer resolution =3.021894 MHz
+[2016.01.14-05.42.19:514][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.14-05.42.19:514][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.14-05.42.19:514][  0]LogMemory: Process Physical Memory: 54.00 MB used, 54.00 MB peak
+[2016.01.14-05.42.19:514][  0]LogMemory: Process Virtual Memory: 58.56 MB used, 58.56 MB peak
+[2016.01.14-05.42.19:514][  0]LogMemory: Physical Memory: 7003.52 MB used, 8132.66 MB total
+[2016.01.14-05.42.19:514][  0]LogMemory: Virtual Memory: 341.80 MB used, 8388608.00 MB total
+[2016.01.14-05.42.21:046][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2016.01.14-05.42.21:047][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.14-05.42.21:047][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.14-05.42.21:076][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.14-05.42.21:076][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.14-05.42.21:108][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.14-05.42.21:130][  0]LogShaderCompil
