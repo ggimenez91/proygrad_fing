@@ -1,0 +1,1233 @@
+﻿[2016.01.20-00.05.43:602][  0]Log file open, 01/19/16 21:05:43
+[2016.01.20-00.05.43:602][  0]LogInit:Display: Running engine for game: LeapBasics
+[2016.01.20-00.05.43:602][  0]LogInit:Display: RandInit(2145293315) SRandInit(2145293315).
+[2016.01.20-00.05.43:602][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.20-00.05.43:602][  0]LogStats: Stats thread started at 0.073927
+[2016.01.20-00.05.43:602][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.20-00.05.43:602][  0]LogInit: API Version: 2672455
+[2016.01.20-00.05.43:602][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.20-00.05.43:602][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.20-00.05.43:602][  0]LogInit: Build Configuration: Development
+[2016.01.20-00.05.43:602][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.20-00.05.43:602][  0]LogInit: Command line:  
+[2016.01.20-00.05.43:602][  0]LogInit: Base directory: D:/Unreal/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.20-00.05.43:602][  0]LogInit: Rocket: 1
+[2016.01.20-00.05.43:609][  0]LogInit: Using libcurl 7.41.0
+[2016.01.20-00.05.43:609][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.20-00.05.43:609][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.20-00.05.43:609][  0]LogInit:  - other features:
+[2016.01.20-00.05.43:609][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.20-00.05.43:609][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.20-00.05.43:609][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.20-00.05.43:609][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.20-00.05.43:609][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.20-00.05.43:609][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.20-00.05.43:609][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.20-00.05.43:609][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.20-00.05.43:609][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.20-00.05.43:609][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.20-00.05.43:614][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.20-00.05.43:620][  0]LogInit: Object subsystem initialized
+[2016.01.20-00.05.43:621][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.20-00.05.43:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.20-00.05.43:629][  0]LogInit: Computer: EMI-PC
+[2016.01.20-00.05.43:629][  0]LogInit: User: Emi
+[2016.01.20-00.05.43:629][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.20-00.05.43:629][  0]LogInit: High frequency timer resolution =3.318427 MHz
+[2016.01.20-00.05.43:629][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.20-00.05.43:629][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.20-00.05.43:629][  0]LogMemory: Process Physical Memory: 54.98 MB used, 54.98 MB peak
+[2016.01.20-00.05.43:629][  0]LogMemory: Process Virtual Memory: 59.89 MB used, 59.89 MB peak
+[2016.01.20-00.05.43:629][  0]LogMemory: Physical Memory: 4274.41 MB used, 8130.12 MB total
+[2016.01.20-00.05.43:629][  0]LogMemory: Virtual Memory: 342.07 MB used, 8388608.00 MB total
+[2016.01.20-00.05.44:298][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 9600 GT (Feature Level 10_0)
+[2016.01.20-00.05.44:298][  0]LogD3D11RHI: Adapter has 487MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 1 output[s]
+[2016.01.20-00.05.44:298][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.20-00.05.44:303][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.20-00.05.44:303][  0]LogRHI: Texture pool is 341 MB (70% of 487 MB)
+[2016.01.20-00.05.44:308][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.20-00.05.44:321][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Intermediate/Shaders/WorkingDirectory/6960/).
+[2016.01.20-00.05.44:322][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Intermediate/Shaders/tmp/E5BB81AF46E78F4831D9F48AB6EB55D5/'.
+[2016.01.20-00.05.44:322][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.20-00.05.45:228][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.20-00.05.45:232][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.20-00.05.45:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.20-00.05.45:240][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.20-00.05.45:244][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.20-00.05.45:247][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.20-00.05.45:250][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.20-00.05.45:252][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.20-00.05.45:255][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.20-00.05.45:258][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.20-00.05.45:261][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.20-00.05.45:264][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.20-00.05.45:265][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.20-00.05.45:280][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.20-00.05.45:283][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.20-00.05.45:285][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.20-00.05.45:288][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.20-00.05.45:288][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.20-00.05.45:353][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache: Loaded boot cache 0.04s 36MB C:/Users/Emi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Emi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.20-00.05.45:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.20-00.05.45:506][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.20-00.05.45:517][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Emi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.20-00.05.45:652][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.20-00.05.45:652][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.20-00.05.45:674][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.20-00.05.45:674][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.20-00.05.45:988][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.20-00.05.46:597][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.20-00.05.46:733][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2016.01.20-00.05.46:904][  0]SourceControl: Info Source control is disabled
+[2016.01.20-00.05.46:917][  0]SourceControl: Info Source control is disabled
+[2016.01.20-00.05.46:927][  0]SourceControl: Info Source control is disabled
+[2016.01.20-00.05.46:942][  0]SourceControl: Info Source control is disabled
+[2016.01.20-00.05.47:082][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.20-00.05.47:156][  0]LeapPluginLog: Using LeapPlugin version 0.9.7
+[2016.01.20-00.05.47:160][  0]LogObj: 28981 objects as part of root set at end of initial load.
+[2016.01.20-00.05.47:160][  0]LogUObjectAllocator: 6140360 out of 0 bytes used by permanent object pool.
+[2016.01.20-00.05.47:208][  0]LogEngine: Initializing Engine...
+[2016.01.20-00.05.47:211][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.20-00.05.47:211][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.20-00.05.47:318][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.20-00.05.47:322][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.20-00.05.47:342][  0]LogInit: FAudioDevice initialized.
+[2016.01.20-00.05.47:365][  0]LogDerivedDataCache: Saved boot cache 0.02s 36MB C:/Users/Emi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.20-00.05.47:368][  0]LogInit: Texture streaming: Enabled
+[2016.01.20-00.05.47:372][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.20-00.05.47:372][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.20-00.05.47:372][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 45cdda59420a0fb546eb418542097723|3eb587a350884e2890a9dd44469b8ec9|fcb3de80-11b8-41b8-a6eb-60d2dfb79158
+[2016.01.20-00.05.47:372][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.20-00.05.47:393][  0]LogInit: Transaction tracking system initialized
+[2016.01.20-00.05.47:414][  0]BlueprintLog: New page: Editor Load
+[2016.01.20-00.05.47:478][  0]LocalizationService: Info Localization service is disabled
+[2016.01.20-00.05.47:697][  0]LogConsoleResponse:Display: 
+[2016.01.20-00.05.47:795][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.20-00.05.47:840][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/' took 0.01s
+[2016.01.20-00.05.47:840][  0]SourceControl: Info Source control is disabled
+[2016.01.20-00.05.47:841][  0]Cmd: MAP LOAD FILE="../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.01.20-00.05.47:841][  0]LightingResults: New page: Lighting Build
+[2016.01.20-00.05.47:843][  0]MapCheck: New page: Map Check
+[2016.01.20-00.05.47:843][  0]LightingResults: New page: Lighting Build
+[2016.01.20-00.05.47:851][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206A8900
+[2016.01.20-00.05.48:498][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.01.20-00.05.48:498][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.01.20-00.05.48:498][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.01.20-00.05.48:499][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.20-00.05.48:499][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.20-00.05.48:499][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.20-00.05.48:499][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.20-00.05.48:502][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.36] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 8 ms]
+[2016.01.20-00.05.48:502][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.36] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2016.01.20-00.05.48:502][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.36] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2016.01.20-00.05.48:509][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.01.20-00.05.48:509][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.01.20-00.05.48:510][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.01.20-00.05.48:510][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.01.20-00.05.48:510][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.01.20-00.05.48:510][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.01.20-00.05.48:510][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.01.20-00.05.48:513][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.37] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 8 ms]
+[2016.01.20-00.05.48:513][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.37] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2016.01.20-00.05.48:513][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0005.37] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2016.01.20-00.05.48:526][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/CameraActor_Blueprint.CameraActor_Blueprint_C:UserConstructionScript; removing parent information, but keeping function
+[2016.01.20-00.05.48:829][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.20-00.05.48:834][  0]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.01.20-00.05.48:837][  0]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.05.48:839][  0]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_2
+[2016.01.20-00.05.48:840][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.20-00.05.48:840][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.20-00.05.48:886][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.944ms to complete.
+[2016.01.20-00.05.48:886][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.046
+[2016.01.20-00.05.48:968][  0]LogCollectionManager: Loaded 0 collections in 0.001575 seconds
+[2016.01.20-00.05.49:005][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Saved/Collections/' took 0.01s
+[2016.01.20-00.05.49:005][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/Developers/Emi/Collections/' took 0.01s
+[2016.01.20-00.05.49:005][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/Collections/' took 0.01s
+[2016.01.20-00.05.49:005][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 1893 classes and 337 folders.
+[2016.01.20-00.05.49:009][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.20-00.05.49:015][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.20-00.05.49:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.20-00.05.49:053][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.20-00.05.49:092][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.20-00.05.49:095][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.20-00.05.49:115][  0]LogLoad: Full Startup: 5.98 seconds (BP compile: 0.37 seconds)
+[2016.01.20-00.05.49:178][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.20-00.05.49:284][  0]LogRenderer: Reallocating scene render targets to support 808x456 (Frame:2).
+[2016.01.20-00.05.49:355][  1]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_3
+[2016.01.20-00.05.49:355][  1]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.05.49:619][  5]LogAssetRegistry: Asset discovery search completed in 2.8965 seconds
+[2016.01.20-00.05.49:619][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.20-00.05.49:619][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.01.20-00.05.54:431][517]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.01.20-00.06.05:993][709]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.20-00.06.06:553][709]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.01.20-00.06.07:060][709]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_4
+[2016.01.20-00.06.07:060][709]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:716][484]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:717][484]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_6
+[2016.01.20-00.06.38:717][484]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:720][484]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:721][484]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_8
+[2016.01.20-00.06.38:721][484]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:724][484]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:725][484]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_10
+[2016.01.20-00.06.38:725][484]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:747][486]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:748][486]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_12
+[2016.01.20-00.06.38:748][486]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:751][486]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:752][486]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_14
+[2016.01.20-00.06.38:752][486]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:754][486]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:756][486]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_16
+[2016.01.20-00.06.38:756][486]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:769][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:771][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_18
+[2016.01.20-00.06.38:771][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:773][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:775][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_20
+[2016.01.20-00.06.38:775][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:777][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:778][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_22
+[2016.01.20-00.06.38:778][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:781][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:782][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_24
+[2016.01.20-00.06.38:782][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:784][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:785][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_26
+[2016.01.20-00.06.38:785][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:787][487]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:789][487]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_28
+[2016.01.20-00.06.38:789][487]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:802][488]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:804][488]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_30
+[2016.01.20-00.06.38:804][488]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:806][488]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:807][488]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_32
+[2016.01.20-00.06.38:807][488]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:809][488]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:811][488]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_34
+[2016.01.20-00.06.38:811][488]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:822][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:824][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_36
+[2016.01.20-00.06.38:824][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:826][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:827][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_38
+[2016.01.20-00.06.38:827][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:829][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:830][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_40
+[2016.01.20-00.06.38:831][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:833][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:834][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_42
+[2016.01.20-00.06.38:834][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:836][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:838][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_44
+[2016.01.20-00.06.38:838][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:840][489]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:841][489]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_46
+[2016.01.20-00.06.38:841][489]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:853][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:855][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_48
+[2016.01.20-00.06.38:855][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:857][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:858][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_50
+[2016.01.20-00.06.38:858][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:860][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:861][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_52
+[2016.01.20-00.06.38:861][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:864][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:865][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_54
+[2016.01.20-00.06.38:865][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:867][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:868][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_56
+[2016.01.20-00.06.38:868][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:871][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:872][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_58
+[2016.01.20-00.06.38:872][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:874][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:876][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_60
+[2016.01.20-00.06.38:876][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:877][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:879][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_62
+[2016.01.20-00.06.38:879][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:881][490]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:882][490]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_64
+[2016.01.20-00.06.38:882][490]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:895][491]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:896][491]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_66
+[2016.01.20-00.06.38:896][491]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:898][491]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:899][491]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_68
+[2016.01.20-00.06.38:899][491]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.38:902][491]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.38:903][491]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_70
+[2016.01.20-00.06.38:903][491]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:012][502]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:013][502]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_72
+[2016.01.20-00.06.39:013][502]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:015][502]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:017][502]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_74
+[2016.01.20-00.06.39:017][502]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:019][502]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:020][502]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_76
+[2016.01.20-00.06.39:020][502]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:278][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:279][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_78
+[2016.01.20-00.06.39:279][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:282][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:283][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_80
+[2016.01.20-00.06.39:283][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:286][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:287][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_82
+[2016.01.20-00.06.39:287][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:290][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:291][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_84
+[2016.01.20-00.06.39:291][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:293][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:294][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_86
+[2016.01.20-00.06.39:294][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:296][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:297][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_88
+[2016.01.20-00.06.39:297][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:300][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:302][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_90
+[2016.01.20-00.06.39:302][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:303][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:305][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_92
+[2016.01.20-00.06.39:305][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:307][528]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:308][528]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_94
+[2016.01.20-00.06.39:308][528]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:320][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:322][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_96
+[2016.01.20-00.06.39:322][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:324][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:325][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_98
+[2016.01.20-00.06.39:325][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:327][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:329][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_100
+[2016.01.20-00.06.39:329][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:331][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:333][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_102
+[2016.01.20-00.06.39:333][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:335][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:336][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_104
+[2016.01.20-00.06.39:336][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:339][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:340][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_106
+[2016.01.20-00.06.39:340][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:343][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:345][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_108
+[2016.01.20-00.06.39:345][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:347][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:348][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_110
+[2016.01.20-00.06.39:348][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:350][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:352][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_112
+[2016.01.20-00.06.39:352][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:355][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:356][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_114
+[2016.01.20-00.06.39:356][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:358][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:359][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_116
+[2016.01.20-00.06.39:359][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:362][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:363][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_118
+[2016.01.20-00.06.39:363][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:365][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:367][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_120
+[2016.01.20-00.06.39:367][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:369][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:370][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_122
+[2016.01.20-00.06.39:370][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:372][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:374][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_124
+[2016.01.20-00.06.39:374][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:376][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:378][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_126
+[2016.01.20-00.06.39:378][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:379][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:381][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_128
+[2016.01.20-00.06.39:381][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:383][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:384][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_130
+[2016.01.20-00.06.39:384][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:387][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:388][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_132
+[2016.01.20-00.06.39:388][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:390][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:391][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_134
+[2016.01.20-00.06.39:391][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:393][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:395][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_136
+[2016.01.20-00.06.39:395][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:397][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:398][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_138
+[2016.01.20-00.06.39:398][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:400][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:402][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_140
+[2016.01.20-00.06.39:402][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:404][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:405][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_142
+[2016.01.20-00.06.39:405][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:408][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:409][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_144
+[2016.01.20-00.06.39:409][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:411][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:412][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_146
+[2016.01.20-00.06.39:412][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:414][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:416][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_148
+[2016.01.20-00.06.39:416][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:418][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:419][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_150
+[2016.01.20-00.06.39:419][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:421][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:422][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_152
+[2016.01.20-00.06.39:422][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:425][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:426][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_154
+[2016.01.20-00.06.39:426][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:428][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:430][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_156
+[2016.01.20-00.06.39:430][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:432][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:433][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_158
+[2016.01.20-00.06.39:433][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:435][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:436][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_160
+[2016.01.20-00.06.39:436][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:439][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:441][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_162
+[2016.01.20-00.06.39:441][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:442][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:444][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_164
+[2016.01.20-00.06.39:444][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:446][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:447][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_166
+[2016.01.20-00.06.39:447][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:450][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:451][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_168
+[2016.01.20-00.06.39:451][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:453][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:454][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_170
+[2016.01.20-00.06.39:454][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:456][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:458][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_172
+[2016.01.20-00.06.39:458][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:460][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:462][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_174
+[2016.01.20-00.06.39:462][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:463][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:465][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_176
+[2016.01.20-00.06.39:465][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:467][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:468][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_178
+[2016.01.20-00.06.39:468][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:471][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:472][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_180
+[2016.01.20-00.06.39:472][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:474][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:475][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_182
+[2016.01.20-00.06.39:475][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:477][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:479][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_184
+[2016.01.20-00.06.39:479][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:481][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:483][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_186
+[2016.01.20-00.06.39:483][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:484][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:486][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_188
+[2016.01.20-00.06.39:486][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:488][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:489][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_190
+[2016.01.20-00.06.39:489][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:492][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:493][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_192
+[2016.01.20-00.06.39:493][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:495][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:496][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_194
+[2016.01.20-00.06.39:496][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:498][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:500][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_196
+[2016.01.20-00.06.39:500][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:502][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:504][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_198
+[2016.01.20-00.06.39:504][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:506][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:507][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_200
+[2016.01.20-00.06.39:507][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:509][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:510][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_202
+[2016.01.20-00.06.39:510][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:513][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:514][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_204
+[2016.01.20-00.06.39:514][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:516][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:517][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_206
+[2016.01.20-00.06.39:517][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:519][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:521][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_208
+[2016.01.20-00.06.39:521][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:523][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:524][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_210
+[2016.01.20-00.06.39:524][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:526][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:527][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_212
+[2016.01.20-00.06.39:527][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:530][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:531][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_214
+[2016.01.20-00.06.39:531][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:533][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:535][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_216
+[2016.01.20-00.06.39:535][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:537][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:538][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_218
+[2016.01.20-00.06.39:538][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:540][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:541][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_220
+[2016.01.20-00.06.39:541][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:544][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:545][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_222
+[2016.01.20-00.06.39:545][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:547][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:548][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_224
+[2016.01.20-00.06.39:549][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:551][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:552][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_226
+[2016.01.20-00.06.39:552][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:555][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:556][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_228
+[2016.01.20-00.06.39:556][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:558][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:559][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_230
+[2016.01.20-00.06.39:559][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:562][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:563][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_232
+[2016.01.20-00.06.39:563][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:565][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:567][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_234
+[2016.01.20-00.06.39:567][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:569][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:570][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_236
+[2016.01.20-00.06.39:570][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:572][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:573][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_238
+[2016.01.20-00.06.39:574][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:576][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:577][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_240
+[2016.01.20-00.06.39:577][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:579][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:581][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_242
+[2016.01.20-00.06.39:581][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:583][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:584][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_244
+[2016.01.20-00.06.39:584][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:587][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:588][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_246
+[2016.01.20-00.06.39:588][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:590][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:591][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_248
+[2016.01.20-00.06.39:591][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:594][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:595][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_250
+[2016.01.20-00.06.39:595][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:597][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:599][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_252
+[2016.01.20-00.06.39:599][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:601][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:602][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_254
+[2016.01.20-00.06.39:602][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:604][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:605][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_256
+[2016.01.20-00.06.39:605][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:608][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:609][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_258
+[2016.01.20-00.06.39:609][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:611][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:613][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_260
+[2016.01.20-00.06.39:613][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:615][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:616][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_262
+[2016.01.20-00.06.39:616][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:619][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:620][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_264
+[2016.01.20-00.06.39:620][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:622][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:623][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_266
+[2016.01.20-00.06.39:623][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:626][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:628][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_268
+[2016.01.20-00.06.39:628][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:631][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:632][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_270
+[2016.01.20-00.06.39:632][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:634][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:635][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_272
+[2016.01.20-00.06.39:635][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:638][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:639][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_274
+[2016.01.20-00.06.39:639][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:642][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:643][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_276
+[2016.01.20-00.06.39:643][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:645][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:646][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_278
+[2016.01.20-00.06.39:646][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:648][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:649][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_280
+[2016.01.20-00.06.39:649][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:652][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:653][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_282
+[2016.01.20-00.06.39:653][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:655][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:657][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_284
+[2016.01.20-00.06.39:657][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:659][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:660][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_286
+[2016.01.20-00.06.39:660][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:662][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:664][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_288
+[2016.01.20-00.06.39:664][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:665][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:667][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_290
+[2016.01.20-00.06.39:667][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:669][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:670][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_292
+[2016.01.20-00.06.39:670][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:673][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:675][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_294
+[2016.01.20-00.06.39:675][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:676][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:678][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_296
+[2016.01.20-00.06.39:678][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:680][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:681][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_298
+[2016.01.20-00.06.39:681][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:684][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:686][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_300
+[2016.01.20-00.06.39:686][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:687][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:689][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_302
+[2016.01.20-00.06.39:689][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:691][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:693][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_304
+[2016.01.20-00.06.39:693][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:695][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:696][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_306
+[2016.01.20-00.06.39:696][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:698][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:699][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_308
+[2016.01.20-00.06.39:699][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:702][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:703][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_310
+[2016.01.20-00.06.39:703][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:706][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:707][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_312
+[2016.01.20-00.06.39:707][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:709][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:710][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_314
+[2016.01.20-00.06.39:710][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:712][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:714][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_316
+[2016.01.20-00.06.39:714][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:716][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:717][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_318
+[2016.01.20-00.06.39:717][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:719][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:721][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_320
+[2016.01.20-00.06.39:721][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:723][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:724][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_322
+[2016.01.20-00.06.39:724][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:727][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:728][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_324
+[2016.01.20-00.06.39:728][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:730][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:731][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_326
+[2016.01.20-00.06.39:731][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:734][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:735][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_328
+[2016.01.20-00.06.39:735][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:738][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:739][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_330
+[2016.01.20-00.06.39:739][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:741][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:742][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_332
+[2016.01.20-00.06.39:742][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:744][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:746][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_334
+[2016.01.20-00.06.39:746][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:748][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:750][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_336
+[2016.01.20-00.06.39:750][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:752][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:753][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_338
+[2016.01.20-00.06.39:753][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:755][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:756][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_340
+[2016.01.20-00.06.39:756][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:759][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:760][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_342
+[2016.01.20-00.06.39:760][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:762][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:763][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_344
+[2016.01.20-00.06.39:763][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:766][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:767][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_346
+[2016.01.20-00.06.39:767][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:770][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:771][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_348
+[2016.01.20-00.06.39:771][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:773][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:774][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_350
+[2016.01.20-00.06.39:774][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:776][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:778][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_352
+[2016.01.20-00.06.39:778][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:780][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:782][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_354
+[2016.01.20-00.06.39:782][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:784][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:785][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_356
+[2016.01.20-00.06.39:785][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:787][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:788][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_358
+[2016.01.20-00.06.39:788][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:791][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:792][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_360
+[2016.01.20-00.06.39:792][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:794][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:796][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_362
+[2016.01.20-00.06.39:796][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:798][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:799][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_364
+[2016.01.20-00.06.39:799][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:802][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:804][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_366
+[2016.01.20-00.06.39:804][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:805][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:807][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_368
+[2016.01.20-00.06.39:807][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:809][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:810][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_370
+[2016.01.20-00.06.39:810][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:813][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:814][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_372
+[2016.01.20-00.06.39:814][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:816][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:817][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_374
+[2016.01.20-00.06.39:817][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:819][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:821][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_376
+[2016.01.20-00.06.39:821][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:823][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:825][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_378
+[2016.01.20-00.06.39:825][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:826][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:828][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_380
+[2016.01.20-00.06.39:828][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:830][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:831][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_382
+[2016.01.20-00.06.39:831][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:834][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:835][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_384
+[2016.01.20-00.06.39:835][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:837][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:838][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_386
+[2016.01.20-00.06.39:838][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:840][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:842][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_388
+[2016.01.20-00.06.39:842][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:844][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:846][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_390
+[2016.01.20-00.06.39:846][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:847][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:849][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_392
+[2016.01.20-00.06.39:849][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:851][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:852][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_394
+[2016.01.20-00.06.39:852][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:855][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:857][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_396
+[2016.01.20-00.06.39:857][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:858][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:860][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_398
+[2016.01.20-00.06.39:860][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:862][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:863][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_400
+[2016.01.20-00.06.39:863][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:866][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:867][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_402
+[2016.01.20-00.06.39:867][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:869][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:870][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_404
+[2016.01.20-00.06.39:870][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:872][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:874][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_406
+[2016.01.20-00.06.39:874][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:876][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:877][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_408
+[2016.01.20-00.06.39:877][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:879][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:880][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_410
+[2016.01.20-00.06.39:880][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:883][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:884][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_412
+[2016.01.20-00.06.39:884][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:887][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:888][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_414
+[2016.01.20-00.06.39:888][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:890][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:891][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_416
+[2016.01.20-00.06.39:891][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:893][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:895][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_418
+[2016.01.20-00.06.39:895][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:897][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:899][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_420
+[2016.01.20-00.06.39:899][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:901][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:902][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_422
+[2016.01.20-00.06.39:902][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:904][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:906][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_424
+[2016.01.20-00.06.39:906][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:908][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:910][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_426
+[2016.01.20-00.06.39:910][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:912][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:913][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_428
+[2016.01.20-00.06.39:913][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:915][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:917][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_430
+[2016.01.20-00.06.39:917][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:919][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:920][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_432
+[2016.01.20-00.06.39:920][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:922][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:923][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_434
+[2016.01.20-00.06.39:923][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:926][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:927][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_436
+[2016.01.20-00.06.39:927][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:930][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:931][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_438
+[2016.01.20-00.06.39:931][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:933][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:934][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_440
+[2016.01.20-00.06.39:934][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:937][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:938][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_442
+[2016.01.20-00.06.39:938][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:941][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:942][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_444
+[2016.01.20-00.06.39:942][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:944][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:945][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_446
+[2016.01.20-00.06.39:945][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:947][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:949][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_448
+[2016.01.20-00.06.39:949][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:951][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:953][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_450
+[2016.01.20-00.06.39:953][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:955][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:956][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_452
+[2016.01.20-00.06.39:956][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:958][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:960][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_454
+[2016.01.20-00.06.39:960][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:962][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:963][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_456
+[2016.01.20-00.06.39:963][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:965][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:966][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_458
+[2016.01.20-00.06.39:966][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:969][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:970][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_460
+[2016.01.20-00.06.39:970][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:973][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:974][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_462
+[2016.01.20-00.06.39:974][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:976][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:978][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_464
+[2016.01.20-00.06.39:978][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:980][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:981][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_466
+[2016.01.20-00.06.39:981][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:984][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:985][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_468
+[2016.01.20-00.06.39:985][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:987][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:989][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_470
+[2016.01.20-00.06.39:989][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:991][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:993][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_472
+[2016.01.20-00.06.39:993][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:995][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.39:997][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_474
+[2016.01.20-00.06.39:997][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.39:998][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:000][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_476
+[2016.01.20-00.06.40:000][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:002][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:003][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_478
+[2016.01.20-00.06.40:003][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:006][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:007][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_480
+[2016.01.20-00.06.40:007][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:009][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:011][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_482
+[2016.01.20-00.06.40:011][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:013][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:014][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_484
+[2016.01.20-00.06.40:014][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:017][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:018][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_486
+[2016.01.20-00.06.40:018][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:020][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:021][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_488
+[2016.01.20-00.06.40:021][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:024][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:025][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_490
+[2016.01.20-00.06.40:025][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:027][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:029][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_492
+[2016.01.20-00.06.40:029][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:031][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:032][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_494
+[2016.01.20-00.06.40:032][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:035][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:036][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_496
+[2016.01.20-00.06.40:036][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:039][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:040][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_498
+[2016.01.20-00.06.40:040][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:042][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:044][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_500
+[2016.01.20-00.06.40:044][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:046][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:047][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_502
+[2016.01.20-00.06.40:047][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:050][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:051][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_504
+[2016.01.20-00.06.40:051][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:053][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:055][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_506
+[2016.01.20-00.06.40:055][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:057][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:058][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_508
+[2016.01.20-00.06.40:058][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:060][529]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.40:062][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_510
+[2016.01.20-00.06.40:062][529]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.40:063][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.20-00.06.40:066][529]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_511
+[2016.01.20-00.06.40:066][529]LeapPluginLog:Warning: Warning! More than one (4) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.41:734][616]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.41:736][616]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_513
+[2016.01.20-00.06.41:736][616]LeapPluginLog:Warning: Warning! More than one (4) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.41:738][616]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.41:739][616]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_515
+[2016.01.20-00.06.41:739][616]LeapPluginLog:Warning: Warning! More than one (4) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.41:742][616]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.41:743][616]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_517
+[2016.01.20-00.06.41:743][616]LeapPluginLog:Warning: Warning! More than one (4) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.41:745][616]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.06.41:747][616]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_519
+[2016.01.20-00.06.41:747][616]LeapPluginLog:Warning: Warning! More than one (4) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.06.41:748][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.20-00.06.41:752][617]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_520
+[2016.01.20-00.06.41:752][617]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.13:161][ 29]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.13:163][ 29]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_522
+[2016.01.20-00.09.13:163][ 29]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.13:165][ 29]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.13:166][ 29]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_524
+[2016.01.20-00.09.13:166][ 29]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.13:168][ 29]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.13:170][ 29]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_526
+[2016.01.20-00.09.13:170][ 29]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.13:172][ 29]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.13:173][ 29]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_528
+[2016.01.20-00.09.13:173][ 29]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.13:174][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.20-00.09.13:177][ 29]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_529
+[2016.01.20-00.09.13:177][ 29]LeapPluginLog:Warning: Warning! More than one (6) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.17:371][281]BlueprintLog: New page: Compile CameraActor_Blueprint
+[2016.01.20-00.09.17:460][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.17:545][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.17:603][281]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_532
+[2016.01.20-00.09.17:603][281]LeapPluginLog:Warning: Warning! More than one (5) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.17:667][281]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_533
+[2016.01.20-00.09.17:667][281]LeapPluginLog:Warning: Warning! More than one (6) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.17:669][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.20-00.09.17:728][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.17:738][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.19:844][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.19:845][281]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_535
+[2016.01.20-00.09.19:845][281]LeapPluginLog:Warning: Warning! More than one (6) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.19:847][281]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.19:848][281]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_537
+[2016.01.20-00.09.19:848][281]LeapPluginLog:Warning: Warning! More than one (6) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.19:852][281]BlueprintEditorCompileResults: Info [0216.71] Compile of CameraActor_Blueprint successful! [in 2,480 ms]
+[2016.01.20-00.09.19:855][281]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_538
+[2016.01.20-00.09.19:855][281]LeapPluginLog:Warning: Warning! More than one (7) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.22:288][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraActor_Blueprint" FILE="../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/CameraActor_Blueprint.uasset" SILENT=true
+[2016.01.20-00.09.22:327][413]LogSavePackage: Save=19.122011ms
+[2016.01.20-00.09.22:327][413]LogSavePackage: Moving '../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Saved/CameraActor_Blueprint82CFD5AB460288C6AA2405BFC8DABF74.tmp' to '../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/CameraActor_Blueprint.uasset'
+[2016.01.20-00.09.22:328][413]LogSavePackage: Total save time: 39.412647ms
+[2016.01.20-00.09.22:328][413]LogSavePackage:Warning: Finished SavePackage ../../../../../../Facultad/Proyecto de grado/Repo/Proyectos/LeapBasics/Content/CameraActor_Blueprint.uasset
+[2016.01.20-00.09.23:763][501]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-00.09.24:990][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.20-00.09.24:991][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.20-00.09.24:991][600]PIE: New page: PIE session: Minimal_Default (Jan 19, 2016, 6:09:24 PM)
+[2016.01.20-00.09.24:991][600]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.01.20-00.09.24:993][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002592s)
+[2016.01.20-00.09.24:994][600]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.20-00.09.24:994][600]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.01.20-00.09.24:994][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003315s)
+[2016.01.20-00.09.24:994][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.20-00.09.25:068][600]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.20-00.09.25:075][600]LogInit: FAudioDevice initialized.
+[2016.01.20-00.09.25:134][600]LogWorld: Game class is 'GameMode'
+[2016.01.20-00.09.25:141][600]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.01.20-00.09.25:141][600]LeapPluginLog:Warning: Warning! More than one (7) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2016.01.20-00.09.25:141][600]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.01.19-21.09.25
+[2016.01.20-00.09.25:141][600]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.20-00.09.25:141][600]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.20-00.09.25:142][600]LogWorld: Bringing up level for play took: 0.005947
+[2016.01.20-00.09.25:144][600]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.673
+[2016.01.20-00.09.25:144][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.20-03.38.18:815][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.20-03.38.18:821][583]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.18:847][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.01.20-03.38.18:870][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032D45620
+[2016.01.20-03.38.19:013][584]Cmd: QUIT_EDITOR
+[2016.01.20-03.38.19:236][584]LogExit: Preparing to exit.
+[2016.01.20-03.38.20:429][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:429][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:429][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:429][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:429][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:458][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:464][584]LogExit: Editor shut down
+[2016.01.20-03.38.20:464][584]LogExit: Transaction tracking system shut down
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002510D3A0
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002836B880
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000264C77E0
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019A42020
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019A41BC0
+[2016.01.20-03.38.20:467][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016E2F880
+[2016.01.20-03.38.20:485][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:499][584]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2016.01.20-03.38.20:691][584]LogExit: Object subsystem successfully closed.
+[2016.01.20-03.38.20:705][584]LogD3D11RHI: Shutdown
+[2016.01.20-03.38.20:705][584]LogD3D11RHI: CleanupD3DDevice
+[2016.01.20-03.38.20:757][584]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.20-03.38.20:772][584]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.20-03.38.20:773][584]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.20-03.38.21:237][584]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.20-03.38.21:238][584]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.20-03.38.21:239][584]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.20-03.38.21:240][584]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.20-03.38.21:240][584]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.20-03.38.21:240][584]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.20-03.38.21:240][584]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.20-03.38.21:244][584]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.20-03.38.21:413][584]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.20-03.38.21:413][584]LogModuleManager: Shutting down and abandoning module LeapMotion (121)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.20-03.38.21:443][584]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.20-03.38.21:463][584]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.20-03.38.21:464][584]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.20-03.38.21:465][584]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.20-03.38.21:466][584]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.20-03.38.21:544][584]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.20-03.38.21:544][584]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.20-03.38.21:544][584]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.20-03.38.21:644][584]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.20-03.38.21:644][584]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.20-03.38.21:644][584]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.20-03.38.21:651][584]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.20-03.38.21:651][584]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.20-03.38.21:651][584]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.20-03.38.21:651][584]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.20-03.38.21:652][584]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.20-03.38.21:653][584]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.20-03.38.21:653][584]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.20-03.38.21:658][584]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.20-03.38.21:660][584]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.20-03.38.21:694][584]LogDerivedDataCache: Shutdown
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.20-03.38.21:694][584]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.20-03.38.21:695][584]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.20-03.38.23:696][584]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.20-03.38.23:697][584]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.20-03.38.23:698][584]LogExit: Exiting.
+[2016.01.20-03.38.23:699][584]Log file closed, 01/20/16 00:38:23
