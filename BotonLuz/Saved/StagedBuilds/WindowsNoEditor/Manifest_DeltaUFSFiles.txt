@@ -790,10 +790,16 @@ BotonLuz\Config\DefaultGame.ini
 BotonLuz\AssetRegistry.bin
 BotonLuz\CookedIniVersion.txt
 BotonLuz\Content\ElementoListaLuzAgregada.uasset
-BotonLuz\Content\Inicio.umap
+BotonLuz\Content\Material__118.uasset
 BotonLuz\Content\PanelLuces.uasset
+BotonLuz\Content\Untitled.umap
 BotonLuz\Content\Iconos\IconoEditar.uasset
 BotonLuz\Content\Iconos\IconoEliminar.uasset
+BotonLuz\Content\Iconos\IconoLuzPuntual.uasset
+BotonLuz\Content\StarterContent\Architecture\Floor_400x400.uasset
+BotonLuz\Content\StarterContent\Blueprints\Assets\M_LightStage_Arrows.uasset
+BotonLuz\Content\StarterContent\Materials\M_Basic_Floor.uasset
+BotonLuz\Content\StarterContent\Materials\M_Glass.uasset
 Engine\GlobalShaderCache-PCD3D_SM4.bin
 Engine\GlobalShaderCache-PCD3D_SM5.bin
 Engine\Content\ArtTools\RenderToTexture\Enums\EFloatTypes.uasset
@@ -801,6 +807,7 @@ Engine\Content\ArtTools\RenderToTexture\Enums\RenderToTexture_Enum.uasset
 Engine\Content\ArtTools\RenderToTexture\Enums\RenderToTexture_Flipbook_Enum.uasset
 Engine\Content\ArtTools\RenderToTexture\Enums\RenderToTexture_Imposter_Enum.uasset
 Engine\Content\ArtTools\RenderToTexture\Macros\RenderToTextureMacros.uasset
+Engine\Content\BasicShapes\BasicShapeMaterial.uasset
 Engine\Content\BasicShapes\Cone.uasset
 Engine\Content\BasicShapes\Cube.uasset
 Engine\Content\BasicShapes\Cylinder.uasset
@@ -1083,6 +1090,7 @@ Engine\Content\Tutorial\Foliage\Foliage_Intro_Tutorial.uasset
 Engine\Content\Tutorial\Foliage\TutorialAssets\Foliage.uasset
 Engine\Content\Tutorial\Landscape\Landscape_Manage_Mode.uasset
 Engine\Content\Tutorial\Landscape\TutorialAssets\Landscape.uasset
+Engine\Content\Tutorial\SubEditors\MaterialEditorTutorial.uasset
 Engine\Content\Tutorial\SubEditors\StaticMeshEditorTutorial.uasset
 Engine\Plugins\2D\Paper2D\Content\DefaultPaperTerrainMaterial.uasset
 Engine\Plugins\2D\Paper2D\Content\DefaultSpriteMaterial.uasset
